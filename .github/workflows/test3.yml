@@ -2,7 +2,7 @@ name: Every 10 Minutes Update
 on: workflow_dispatch
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
