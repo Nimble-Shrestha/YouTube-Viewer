@@ -1,8 +1,9 @@
-name: Every 10 Minutes Update
+name: AWS
 on: workflow_dispatch
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
     timeout-minutes: 1 
   
