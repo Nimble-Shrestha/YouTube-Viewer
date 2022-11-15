@@ -20,4 +20,4 @@ jobs:
         pip install "setuptools<59"
         pip install -r requirements.txt
     - name: Run the scraper
-      run: python main.py 
+      run: python youtube_viewer.py 
