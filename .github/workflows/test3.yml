@@ -1,11 +1,7 @@
 name: proxy-list-scraper
 
 on:
- # schedule:
-  #  - cron: '*/30 * * * *'
   workflow_dispatch:
-  repository_dispatch:
-   types: [proxy-list-scraper]
 
 jobs:
   build:
